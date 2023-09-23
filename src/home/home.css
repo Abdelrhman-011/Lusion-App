@@ -1,0 +1,32 @@
+.section1{
+    grid-gap: 40px 18px;
+}
+.section2:hover{
+    transform: scale(0.8);
+    transition: 1s all;
+    cursor: pointer;
+}
+.section3{
+    background:  url("../Images/f1.png");
+    background-size: cover;
+}
+.section4{
+    position: relative;
+}
+.section4::after{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0%;
+    height: 100%;
+    opacity: 60%;
+    top: 0;
+    left: 0;
+}
+.p_section4{
+    z-index: 5000 !important;
+}
+.section4:hover::after{
+    width: 100%;
+    transition: 1s all;
+}
