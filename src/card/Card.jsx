@@ -5,7 +5,6 @@ import Card from "react-bootstrap/Card";
 import { MdDelete } from "react-icons/md";
 
 const Cards = ({ cardprodects, increment, decrement, delet }) => {
-  console.log(cardprodects);
   const navgtly = useNavigate();
   const gotoshop = () => {
     navgtly("/shop");

@@ -12,7 +12,7 @@ const Header = ({ cardprodects }) => {
     localStorage.clear();
     navgitly("/login");
   };
-  console.log(localStorage.Login);
+
   return (
     <div>
       <Navbar expand="lg" bg="dark" data-bs-theme="dark">

@@ -27,8 +27,6 @@ const Login = () => {
     event.preventDefault();
   };
 
-  console.log(localStorage.user);
-
   const handelform = (e) => {
     e.preventDefault();
     if (

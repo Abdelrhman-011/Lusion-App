@@ -21,8 +21,6 @@ const SignUp = () => {
   const [loading, setLoading] = useState(false);
   const navgitly = useNavigate();
 
-  console.log(loading);
-
   const handelform = (e) => {
     e.preventDefault();
 
